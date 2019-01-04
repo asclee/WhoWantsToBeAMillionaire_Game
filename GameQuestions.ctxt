@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GameQuestions()
+comment0.text=\r\n\ Constructor\ for\ creating\ a\ GameQuestions\ object\r\n
+comment1.params=question\ qCount
+comment1.target=void\ addQuestion(java.lang.String,\ int)
+comment1.text=\r\n\ Set\ the\ text\ of\ the\ question\r\n\ \r\n\ @param\ question\ the\ question\ text\r\n
+comment2.params=rawQuestion
+comment2.target=java.lang.String\ formatQuestion(java.lang.String)
+comment2.text=\r\n\ Formats\ the\ question\ string\ correctly\r\n\ \r\n\ @param\ rawQuestion\ the\ raw\ text\ of\ the\ question\r\n\ @return\ the\ formatted\ question\r\n
+comment3.params=qCount
+comment3.target=java.lang.String\ extractQuestion(int)
+comment3.text=\r\n\ Display\ the\ formatted\ text\ of\ the\ question\r\n\ \r\n\ @param\ qCount\ the\ question\ index\ number\r\n\ @return\ the\ formatted\ text\ of\ the\ question\r\n
+comment4.params=choice\ correct\ qCount\ letter
+comment4.target=void\ addChoice(java.lang.String,\ boolean,\ int,\ java.lang.String)
+comment4.text=\r\n\ Add\ a\ choice\ to\ the\ list\ of\ answer\ choices\r\n\ \r\n\ @param\ choice\ the\ text\ of\ the\ answer\ choice\r\n\ @param\ correct\ true\ of\ false\ if\ the\ choice\ is\ correct\ or\ not\r\n\ @param\ qCount\ the\ question\ index\ number\ to\ which\ the\ answer\ choice\ corresponds\r\n\ @param\ letter\ the\ answer\ choice\ letter\r\n
+comment5.params=qCount\ letter
+comment5.target=java.lang.String\ extractAnswerChoice(int,\ java.lang.String)
+comment5.text=\r\n\ Extract\ the\ text\ of\ a\ specific\ answer\ choice\r\n\ \r\n\ @param\ qCount\ the\ question\ index\ number\ that\ the\ answer\ choice\ corresponds\ to\r\n\ @param\ letter\ the\ letter\ of\ the\ answer\ choice\ to\ be\ extracted\r\n\ @return\ the\ text\ of\ the\ specified\ answer\ choice\r\n
+comment6.params=qCount
+comment6.target=java.lang.String\ extractAnswer(int)
+comment6.text=\r\n\ Extract\ the\ letter\ of\ the\ correct\ answer\ choice\r\n\ \r\n\ @param\ qCount\ the\ question\ index\ number\ that\ the\ answer\ corresponds\ to\r\n\ @return\ the\ correct\ answer\ letter\r\n
+numComments=7

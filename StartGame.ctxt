@@ -1,4 +1,6 @@
 #BlueJ class context
-comment0.params=args
-comment0.target=void\ main(java.lang.String[])
-numComments=1
+comment0.target=StartGame
+comment0.text=\n\ Opens\ a\ GUI\ with\ game\ rules\ and\ different\ topic\ buttons\ that\ the\ user\ can\ choose\ to\ start\ a\ game\n\ \n\ @author\ Amber\ Lee\ \n\ @version\ 7/29/16\ AM\ Class\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
